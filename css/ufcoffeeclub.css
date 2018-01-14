@@ -153,6 +153,18 @@ p {
   background-color: rgba(47, 23, 15, 0.9);
 }
 
+.footer .social a {
+  padding-right: 15px;
+}
+
+.footer .social a:last-of-type {
+  padding-right: 0px;
+}
+
+.footer .social a:hover {
+  color: #cccccc;
+}
+
 .text-primary {
   color: #e6a756 !important;
 }
