@@ -46,6 +46,7 @@ p {
 @media (max-width: 767px) {
   .site-heading .site-heading-lower {
     font-size: 3rem;
+    font-weight: bold;
   }
 }
 
