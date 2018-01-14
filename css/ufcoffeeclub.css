@@ -1,6 +1,6 @@
 body {
   font-family: 'Lora';
-  background: linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)), url("../img/bg.jpg");
+  background: linear-gradient(rgba(47, 23, 15, 0.75), rgba(47, 23, 15, 0.85)), url("../img/bg.jpg");
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -39,7 +39,7 @@ p {
 
 .site-heading .site-heading-lower {
   font-size: 5rem;
-  font-weight: 100;
+  font-weight: 200;
   line-height: 4rem;
 }
 
@@ -79,36 +79,6 @@ p {
 
 .bg-faded {
   background-color: rgba(255, 255, 255, 0.85);
-}
-
-#mainNav {
-  background-color: rgba(47, 23, 15, 0.9);
-  font-family: 'Raleway';
-}
-
-#mainNav .navbar-brand {
-  color: #e6a756;
-}
-
-#mainNav .navbar-nav .nav-item .nav-link {
-  color: rgba(255, 255, 255, 0.7);
-  font-weight: 800;
-}
-
-#mainNav .navbar-nav .nav-item.active .nav-link {
-  color: #e6a756;
-}
-
-@media (min-width: 992px) {
-  #mainNav .navbar-nav .nav-item .nav-link {
-    font-size: 0.9rem;
-  }
-  #mainNav .navbar-nav .nav-item .nav-link:hover {
-    color: rgba(255, 255, 255, 0.4);
-  }
-  #mainNav .navbar-nav .nav-item.active .nav-link:hover {
-    color: #e6a756;
-  }
 }
 
 .btn-xl {
